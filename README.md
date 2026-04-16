@@ -10,7 +10,7 @@ Data Warehouse: BigQuery
 Orchestration: Eventarc
 
 # Design Architecture
-<img width="1009" height="403" alt="image" src="https://github.com/user-attachments/assets/ced22b5c-bdc9-412b-a1f3-71df0f3510a0" />
+<img width="1046" height="368" alt="image" src="https://github.com/user-attachments/assets/cd50d9b8-13a9-4da2-8b82-8f2c5a405139" />
 
 # Description
 Ingestion: Local CSV files are synced to Google Cloud Storage (GCS) via gsutil rsync.

@@ -36,7 +36,7 @@ Pipeline Behavior: The Python Script to load CSV files to GCS is scheduled (via 
 Assumption: Sales entries might be repeated across monthly batches, or a file might be re-uploaded due to an earlier error.
 Pipeline Behavior: The implementation uses an idempotent MERGE (Upsert) strategy when moving data from a temporary table into the marketplace staging tables (stg_*). A specific composite key (e.g., Date + SKU + City) ensures duplicates are updated, not duplicated.
 
-3. Pre-Staging Normalization
+3.Pre-Staging Normalization
 Assumption: The data from different marketplaces is disparate in schema like capitalization, special characters, column naming.
 Pipeline Behavior: A global standardization step (converting column names to lowercase, using underscores instead of spaces, removing special characters) is performed in the Cloud Function using Pandas before any data is loaded into the staging tables. This prevents BigQuery BadRequest schema errors.
 

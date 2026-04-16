@@ -66,5 +66,6 @@ gcs_to_bq.py file will load data from GCS to BigQuery
 <img width="1456" height="335" alt="image" src="https://github.com/user-attachments/assets/799b6b76-85de-4c22-b347-6fdc8550e29d" />
 
 # BigQuery Final
-<img width="1133" height="711" alt="image" src="https://github.com/user-attachments/assets/c26a8dcb-bd92-4e29-95b2-4ea9e9bd8692" />
+<img width="1549" height="752" alt="image" src="https://github.com/user-attachments/assets/d567f7e4-8d27-461b-887c-10701e8632cd" />
+
 
